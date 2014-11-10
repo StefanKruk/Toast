@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Emergency
+Bundle-SymbolicName: org.equinoxosgi.toast.client.emergency
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.equinoxosgi.toast.internal.client.emergency.bundle.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.equinoxosgi.toast.dev.airbag,
+ org.equinoxosgi.toast.dev.gps,
+ org.osgi.framework;version="1.8.0"
+Bundle-ActivationPolicy: lazy
